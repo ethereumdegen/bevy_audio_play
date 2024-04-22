@@ -58,7 +58,7 @@ fn listen_for_inputs(
 
                     println!("playing sound ");
 
-                    audio.play(asset_server.load("sounds/walk_sfx2.ogg")).looped();
+                    audio.play(asset_server.load("sounds/walk_sfx.ogg")).looped();
 
                 }
 
